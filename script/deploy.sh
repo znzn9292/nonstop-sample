@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DOCKER_APP_NAME=springproject
+DOCKER_APP_NAME=nonstop
 
 EXIST_BLUE=$(/usr/local/bin/docker-compose -p ${DOCKER_APP_NAME}-blue -f docker-compose.blue.yml ps | grep Up)
 

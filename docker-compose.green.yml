@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile_springproject
       args:
-        WAR_FILE: build/libs/springproject-0.0.1-SNAPSHOT.war
+        WAR_FILE: build/libs/nonstop-0.0.1-SNAPSHOT.war
     image: bhsbhs235/springproject:0.1
     ports:
       - "8081:8080"
